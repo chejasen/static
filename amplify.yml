@@ -11,10 +11,3 @@ frontend:
       - '**/*'
   cache:
     paths: []
-test:
-  phases:
-    test:
-      commands:
-        - cd webapp
-        - npm run test:ci
-        - cd ..
